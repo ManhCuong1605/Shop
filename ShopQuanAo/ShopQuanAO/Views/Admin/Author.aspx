@@ -13,7 +13,6 @@
         <label for="" class="form-label text-success">Author Name</label>
         <input type="text"  placeholder="Title" autocomplete="off" class="form-control"/>
                 </div>
-                <img src="../../Assets/Images/icons8-billing-machine-100.png" />
                   <div class="mb-3">
         <label for="" class="form-label text-success">Author Gender</label>
         <asp:DropDownList ID="DropDownList2" runat="server" class="form-control">
