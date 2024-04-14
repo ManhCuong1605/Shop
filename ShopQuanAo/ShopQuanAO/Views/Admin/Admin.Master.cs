@@ -13,5 +13,13 @@ namespace ShopQuanAO.Views.Admin
         {
 
         }
+        protected void Login_Click(object sender, EventArgs e)
+        {
+            string user = (string)Session["username"];
+            if (user == "admin")
+            {
+               
+            }
+        }
     }
 }

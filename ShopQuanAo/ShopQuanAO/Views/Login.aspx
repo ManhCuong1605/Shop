@@ -37,7 +37,7 @@
                        <input type="password"  placeholder="Password" autocomplete="off" class="form-control" id="PasswordTb"/>
                     </div>
                     <div class="mt-3 d-grid">
-                        <asp:Button Text="Login"  runat="server" class="btn-success btn" ID="LoginBtn" />
+                        <asp:Button Text="Login"  runat="server" class="btn-success btn" ID="LoginBtn" OnClick="Login_Click" />
                     </div>
                 </form>
             </div>

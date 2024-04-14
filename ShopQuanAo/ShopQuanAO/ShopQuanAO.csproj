@@ -110,12 +110,15 @@
     <Content Include="Views\Admin\Clothes.aspx" />
     <Content Include="Views\Admin\Seller.aspx" />
     <Content Include="Views\Login.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\DBClass.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Views\Admin\Admin.Master.cs">
       <DependentUpon>Admin.Master</DependentUpon>
@@ -194,7 +197,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Seller\" />
   </ItemGroup>
   <PropertyGroup>
