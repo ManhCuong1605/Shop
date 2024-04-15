@@ -108,7 +108,7 @@
     <Content Include="Views\Admin\Author.aspx" />
     <Content Include="Views\Admin\Categories.aspx" />
     <Content Include="Views\Admin\Clothes.aspx" />
-    <Content Include="Views\Admin\Seller.aspx" />
+    <Content Include="Views\Admin\KhanchHang.aspx" />
     <Content Include="Views\Login.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -148,12 +148,12 @@
     <Compile Include="Views\Admin\Clothes.aspx.designer.cs">
       <DependentUpon>Clothes.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Views\Admin\Seller.aspx.cs">
-      <DependentUpon>Seller.aspx</DependentUpon>
+    <Compile Include="Views\Admin\KhanchHang.aspx.cs">
+      <DependentUpon>KhanchHang.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Views\Admin\Seller.aspx.designer.cs">
-      <DependentUpon>Seller.aspx</DependentUpon>
+    <Compile Include="Views\Admin\KhanchHang.aspx.designer.cs">
+      <DependentUpon>KhanchHang.aspx</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.aspx.cs">
       <DependentUpon>Login.aspx</DependentUpon>
