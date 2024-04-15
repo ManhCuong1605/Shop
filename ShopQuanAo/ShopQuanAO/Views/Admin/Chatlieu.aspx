@@ -1,21 +1,21 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Categories.aspx.cs" Inherits="ShopQuanAO.Views.Admin.Categories" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Views/Admin/Admin.Master" AutoEventWireup="true" CodeBehind="Chatlieu.aspx.cs" Inherits="ShopQuanAO.Views.Admin.Categories" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="MyContent" runat="server">
     <div class="container-fluid">
         <div class="row">
             <div class="col">
-                 <h3 class="text-center">Mangage Categories</h3>   </div>
+                 <h3 class="text-center">Chất Liệu</h3>   </div>
         </div>
         <div class="row">
             <div class="col-md-4">
                 <div class="mb-3">
-        <label for="" class="form-label text-success">Catogory Name</label>
-        <input type="text"  placeholder="Title" autocomplete="off" class="form-control"/>
+        <label for="" class="form-label text-success">Ma  chat lieu</label>
+        <input type="text"  placeholder="Title" autocomplete="off" class="form-control" runat="server" id="MachatlieuN"/>
                 </div>
                   <div class="mb-3">
-        <label for="" class="form-label text-success">Category Description</label>
-        <input type="text"  placeholder="Description" autocomplete="off" class="form-control"/>       
+        <label for="" class="form-label text-success">Ten chat lieu </label>
+        <input type="text"  placeholder="Description" autocomplete="off" class="form-control" runat="server" id="Tenchatlieu"/>       
                 </div>
               
                 <div class="row">

@@ -13,6 +13,24 @@ namespace ShopQuanAO.Views.Admin {
     public partial class Categories {
         
         /// <summary>
+        /// MachatlieuN control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText MachatlieuN;
+        
+        /// <summary>
+        /// Tenchatlieu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.HtmlControls.HtmlInputText Tenchatlieu;
+        
+        /// <summary>
         /// GridView1 control.
         /// </summary>
         /// <remarks>

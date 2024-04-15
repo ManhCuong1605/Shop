@@ -47,7 +47,7 @@ namespace ShopQuanAO.Views.Admin
                     if (DateTime.TryParseExact(Ngaysinh, "dd/MM/yyyy", CultureInfo.InvariantCulture, DateTimeStyles.None, out ngaySinh))
                     {
                         // Nếu ngày tháng hợp lệ, thực hiện thêm vào cơ sở dữ liệu
-                        string NgaysinhFormatted = ngaySinh.ToString("dd/MM/yyyy");
+                        string NgaysinhFormatted = ngaySinh.ToString("yyyy-MM-dd");
 
                         string Query = "INSERT INTO dbo.Nhanvien VALUES (@Ma, @Ten, @Gioitinh, @Diachi, @Dienthoai, @Ngaysinh)";
                         SqlParameter[] parameters = new SqlParameter[]

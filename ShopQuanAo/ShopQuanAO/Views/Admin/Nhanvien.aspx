@@ -5,7 +5,7 @@
       <div class="container-fluid">
         <div class="row">
             <div class="col">
-                 <h3 class="text-center">Quan Li Nhan Vien</h3>   </div>
+                 <h3 class="text-center">Quan Li Shop Quan Ao</h3>   </div>
         </div>
         <div class="row">
             <div class="col-md-4">
@@ -43,7 +43,7 @@
                  <div class="mb-3">
 
         <label for="" class="form-label text-success">Ngay Sinh</label>
-        <input type="text"  placeholder="Ngay sinh (yyyy-MM-dd)" autocomplete="off" class="form-control" runat="server" id="NgaysinhNv"/>
+        <input type="text"  placeholder="Ngay sinh (dd/MM/yyyy)" autocomplete="off" class="form-control" runat="server" id="NgaysinhNv"/>
                 </div>
                 <div class="row">
                     <asp:Label runat="server" ID="ErrMsg" class="text-danger"> </asp:Label>
