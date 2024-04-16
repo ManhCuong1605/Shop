@@ -173,12 +173,12 @@ namespace ShopQuanAO.Views.Admin
                     myCon.SetData(deleteHDBanQuery, deleteHDBanParameters);
 
                     // Sau đó, xóa nhân viên
-                    string deleteNhanvienQuery = "DELETE FROM dbo.Nhanvien WHERE Manhanvien = @Ma";
-                    SqlParameter[] deleteNhanvienParameters = new SqlParameter[]
+                    string Query = "DELETE FROM dbo.Nhanvien WHERE Manhanvien = @Ma";
+                    SqlParameter[] Parameters = new SqlParameter[]
                     {
             new SqlParameter("@Ma", Ma),
                     };
-                    myCon.SetData(deleteNhanvienQuery, deleteNhanvienParameters);
+                    myCon.SetData(Query, Parameters);
 
                     ShowAuthor();
                     ErrMsg.Text = "Đã xóa thành công";
