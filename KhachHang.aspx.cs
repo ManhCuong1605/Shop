@@ -68,6 +68,13 @@ namespace ShopQuanAO.Views.Admin
                 ErrMsg.Text = Ex.Message;
             }
         }
+        protected void AuthorList_SelectedIndexChanged1(object sender, EventArgs e)
+        {
+            MaKh.Value = KhachHangList.SelectedRow.Cells[1].Text;
+            TenKh.Value = KhachHangList.SelectedRow.Cells[2].Text;
+            DiachiKh.SelectedValue = KhachHangList.SelectedRow.Cells[3].Text;
+            SĐTKh.Value = KhachHangList.SelectedRow.Cells[4].Text;
+        }
         protected void UpdateBtn_Click(object sender, EventArgs e)
         {
             try
